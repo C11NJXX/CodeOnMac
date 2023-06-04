@@ -1,4 +1,4 @@
-package LearningRecord.SimpleDateFormatdemo;
+package main.resources.fromwindows. LearningRecord.SimpleDateFormatdemo;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

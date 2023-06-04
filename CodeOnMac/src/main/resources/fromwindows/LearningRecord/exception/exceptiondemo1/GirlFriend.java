@@ -1,4 +1,4 @@
-package LearningRecord.exception.exceptiondemo1;
+package main.resources.fromwindows. LearningRecord.exception.exceptiondemo1;
 //如何抛出 如何捕获???
 public class GirlFriend {
     private String name;

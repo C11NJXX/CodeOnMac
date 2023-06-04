@@ -1,4 +1,4 @@
-package LearningRecord.exception.exceptiondemo2;
+package main.resources.fromwindows. LearningRecord.exception.exceptiondemo2;
 //如何书写自定义异常，使得异常的问题见名知意
 public class GirlFriend {
     private String name;

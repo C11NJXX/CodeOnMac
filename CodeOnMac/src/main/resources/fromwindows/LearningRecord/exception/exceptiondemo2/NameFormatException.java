@@ -1,4 +1,4 @@
-package LearningRecord.exception.exceptiondemo2;
+package main.resources.fromwindows. LearningRecord.exception.exceptiondemo2;
 
 public class NameFormatException extends RuntimeException{
 

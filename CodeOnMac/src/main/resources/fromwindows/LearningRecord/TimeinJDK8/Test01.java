@@ -1,4 +1,4 @@
-package LearningRecord.TimeinJDK8;
+package main.resources.fromwindows. LearningRecord.TimeinJDK8;
 
 
 public class Test01 {

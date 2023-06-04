@@ -1,4 +1,4 @@
-package LearningRecord.collectiondemo.demo1;
+package main.resources.fromwindows. LearningRecord.collectiondemo.demo1;
 
 import java.util.ArrayList;
 import java.util.Collection;

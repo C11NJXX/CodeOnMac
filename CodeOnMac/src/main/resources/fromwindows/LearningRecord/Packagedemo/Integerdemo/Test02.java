@@ -1,9 +1,9 @@
-package LearningRecord.Packagedemo.Integerdemo;
+package main.resources.fromwindows.LearningRecord.Packagedemo.Integerdemo;
 //自动装箱拆箱
 public class Test02 {
     public static void main(String[] args) {
         //装箱
-        Integer i = new Integer(10);//10->i
+        Integer i = Integer.valueOf(10);//10->i
         Integer i1 = Integer.valueOf(10);
         //拆箱
         System.out.println(i1.intValue());

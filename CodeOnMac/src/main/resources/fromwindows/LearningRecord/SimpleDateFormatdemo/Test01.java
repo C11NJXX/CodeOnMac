@@ -1,4 +1,4 @@
-package LearningRecord.SimpleDateFormatdemo;
+package main.resources.fromwindows. LearningRecord.SimpleDateFormatdemo;
 
 /*
             public simpleDateFormat() 默认格式
