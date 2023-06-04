@@ -1,4 +1,4 @@
-package LearningRecord.objectdemo;
+package main.resources.fromwindows. LearningRecord.objectdemo;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -78,9 +78,7 @@ public class Student implements Cloneable {
         //创建新数组
         int[]newData = new int[data.length];
         //拷贝
-        for (int i = 0; i < data.length; i++) {
-            newData[i] = data[i];
-        }
+        System.arraycopy(data, 0, newData, 0, data.length);
         //先利用父类的clone方法，再替换需要深拷贝的地方
         Student u = (Student) super.clone();
         u.arr = newData;

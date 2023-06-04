@@ -1,4 +1,4 @@
-package LearningRecord.mathdemo;
+package main.resources.fromwindows. LearningRecord.mathdemo;
 
 public class IsPrime {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LearningRecord.exception.exceptiondemo1;
+package main.resources.fromwindows. LearningRecord.exception.exceptiondemo1;
 
 import java.util.Scanner;
 

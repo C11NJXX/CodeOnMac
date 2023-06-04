@@ -1,4 +1,4 @@
-package LearningRecord.systemdemo;
+package main.resources.fromwindows. LearningRecord.systemdemo;
 
 public class Test02 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LearningRecord.Packagedemo.tostringdemo;
+package main.resources.fromwindows.LearningRecord.Packagedemo.tostringdemo;
 /*除了Character类之外，其他所有包装类都具有parseXxx静态方法可以将字符串参数转换为对应的基本类型*/
 public class Test02 {
     public static void main(String[] args) {

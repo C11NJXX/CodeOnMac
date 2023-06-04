@@ -1,4 +1,4 @@
-package LearningRecord.objectdemo;
+package main.resources.fromwindows. LearningRecord.objectdemo;
 
 public class Test01 {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Test01 {
         boolean res = s1.equals(s2);
         System.out.println(res);
         //String 与StringBuilder
-        String s = new String("abc");
+        String s = "abc";
         StringBuilder sb = new StringBuilder("abc");
         System.out.println(s.equals(sb));//s调用equals，在底层重写了方法
         System.out.println(sb.equals(s));//没有重写equals，使用object中的equals

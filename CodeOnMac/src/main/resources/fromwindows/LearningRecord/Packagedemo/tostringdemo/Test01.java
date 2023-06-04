@@ -1,4 +1,4 @@
-package LearningRecord.Packagedemo.tostringdemo;
+package main.resources.fromwindows.LearningRecord.Packagedemo.tostringdemo;
 /*### 基本类型转换为String
 
 - 转换方式
@@ -8,7 +8,7 @@ package LearningRecord.Packagedemo.tostringdemo;
 public class Test01 {
     public static void main(String[] args) {
         int num = 10;
-        String s1 = num + "";
+        String s1 = String.valueOf(num);
         System.out.println(s1);
 
         String s2 = String.valueOf(10);

@@ -1,4 +1,4 @@
-package LearningRecord.datedemo;
+package main.resources.fromwindows. LearningRecord.datedemo;
 
 import java.util.Date;
 

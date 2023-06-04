@@ -1,4 +1,4 @@
-package LearningRecord.Calendardemo;
+package main.resources.fromwindows. LearningRecord.Calendardemo;
 
 import java.util.Calendar;
 

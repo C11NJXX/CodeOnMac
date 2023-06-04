@@ -1,4 +1,4 @@
-package LearningRecord.collectiondemo.demo1;
+package main.resources.fromwindows. LearningRecord.collectiondemo.demo1;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -12,7 +12,7 @@ public class Test02 {
         Student student = new Student(3,"C");
         boolean isContains = studentCollection.contains(student);
         System.out.println(isContains);
-        System.out.println(student.equals(new String("abc")));
+        System.out.println(student.equals("abc"));
 
     }
 }

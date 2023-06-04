@@ -1,4 +1,4 @@
-package LearningRecord.systemdemo;
+package main.resources.fromwindows. LearningRecord.systemdemo;
 
 public class Test01 {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Test01 {
         long begin = System.currentTimeMillis();
         for (int i = 0; i < 99999; i++) {
             if(isPrime(i)) {
-                System.out.println(i + "");
+                System.out.println(i);
             }
         }
         long end = System.currentTimeMillis();
