@@ -6,4 +6,4 @@ Hello Mac! Hello git!
 --No need to tell this is the third line--
 I add a branch named c11njxx and now I'm update readme.txt on this branch
 I use switch instead of checkout -b to make a branch and update this file
-I'm learning how to fix a conflict when I change file in this branch and then add&commit in this branch and change this file in main branch and add&commit too,then merge these two 
+I'm learning how to fix a conflict when I change file in this branch and then add&commit in this branch and change this file in main branch and add&commit too,then merge these two. 
