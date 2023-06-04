@@ -6,3 +6,4 @@ Hello Mac! Hello git!
 --No need to tell this is the third line--
 I add a branch named c11njxx and now I'm update readme.txt on this branch
 I use switch instead of checkout -b to make a branch and update this file
+do you think i can still be here when the complict has been fixed?
