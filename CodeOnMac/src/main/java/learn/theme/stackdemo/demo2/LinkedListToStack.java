@@ -1,7 +1,4 @@
-package main.java.learn.theme.algorithmdemo.stackdemo.demo2;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
+package main.java.learn.theme.stackdemo.demo2;
 
 public class LinkedListToStack {
     private ListNode stackPeek;

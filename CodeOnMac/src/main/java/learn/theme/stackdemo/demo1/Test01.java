@@ -1,4 +1,4 @@
-package main.java.learn.theme.algorithmdemo.stackdemo.demo1;
+package main.java.learn.theme.stackdemo.demo1;
 
 import java.util.Stack;
 

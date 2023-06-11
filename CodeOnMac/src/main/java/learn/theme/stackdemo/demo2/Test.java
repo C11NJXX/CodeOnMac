@@ -1,4 +1,4 @@
-package main.java.learn.theme.algorithmdemo.stackdemo.demo2;
+package main.java.learn.theme.stackdemo.demo2;
 
 public class Test {
     public static void main(String[] args) {

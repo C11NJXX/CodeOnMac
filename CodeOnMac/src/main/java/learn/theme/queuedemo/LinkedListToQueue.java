@@ -1,7 +1,6 @@
 package main.java.learn.theme.queuedemo;
 
-import main.java.learn.theme.algorithmdemo.stackdemo.demo2.LinkedListToStack;
-import main.java.learn.theme.algorithmdemo.stackdemo.demo2.ListNode;
+import main.java.learn.theme.stackdemo.demo2.ListNode;
 
 public class LinkedListToQueue {
     private ListNode front;//头节点
@@ -72,7 +71,8 @@ public class LinkedListToQueue {
         ListNode listNode = front;
         for(int i = 0 ; i< tmp.length ; i++ ) {
             tmp[i] = front.value;
-            front = front.next;
+            front
+                    = front.next;
         }
         return tmp;
     }
