@@ -1,0 +1,82 @@
+实验01：安装与熟悉JDK
+实验目的：
+1．了解和使用JDK环境；
+2．熟悉JDK集成环境的基本命令、功能和基本用法，并学会配置path 等环境变量；
+3．学习并熟练掌握使用JDK环境进行Java程序开发的全过程（包括：源程序的编辑、编译、调试、运行和结果查看）；
+4．掌握Java应用程序的构成特点，并熟悉基本的错误调试。
+
+实验内容
+1.JDK开发包的安装（可选）
+2.根据要求写出统环境变量的配置
+3.编写一个Java程序进行调试，掌握在JDK开发包支持下编译和运行的过程
+实验数据记录及分析（或程序及运行结果）
+
+1.调试下面程序，指出错误
+public Class HelloWorldApp {
+ public void  static  main(string[] args) {
+system.out.println(“Hello World!”);
+ }
+}
+错误1：修饰符顺序错误，应该为public static void main
+错误2：字符串类名写错 应该为String
+错误3：system改为System
+错误4：Class 改为class，“”改为:”
+
+2.写出调试过程编译和执行的具体命令
+1)上述文件保存后的文件名是：HelloWorldApp.java
+
+2)编译命令：
+javac HelloWorldApp.java
+3)编译正确后，产生的另外一个文件全称是：
+HelloWorldApp.class
+4)运行该程序的命令：java HelloWorldApp
+
+
+3.如果上面的编译命令中的HelloWorldApp.java 换成以下格式，写出执行编译结果：
+javac helloworldapp.java
+编译通过JDK17
+
+javacHelloWorldApp
+javacHelloWorldApp不是内部或外部命令，也不是可运行的程序或批处理文件
+
+
+4.如果上面的运行命令改成以下格式，写出执行结果，如有错误请改正。
+java helloWorldApp.java
+HelloWorld!
+
+
+
+java helloworldapp
+找不到或无法加载主类
+改为 java HelloWolrdApp
+
+
+
+java HelloWorldApp.class
+找不到或无法加载主类 HelloWorldApp.class
+去掉.class
+
+
+
+
+
+
+5.输入下面的随机数生成程序，重复上述编译和执行过程，分步写出两个命令执行过程。
+
+import java.util.Random;
+public class MathDemo {
+ public static void main(String[] args) {
+  Random rand=new Random();
+int v=rand.nextInt();
+System.out.println("你得到了一个"+v);
+ }
+
+}
+1)保存文件名为：MathDemo.java
+2)编译命令为：javac MathDemo.java
+3)运行程序命令为：java MathDemo
+4)如果删除该程序的第一行import语句，重新编译，有何问题？
+找不到符号Random（类）
+
+
+
