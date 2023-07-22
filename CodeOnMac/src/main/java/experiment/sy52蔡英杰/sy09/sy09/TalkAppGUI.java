@@ -1,4 +1,4 @@
-package main.java.experiment.sy52蔡英杰.sy09.demo;
+package main.java.experiment.sy52蔡英杰.sy09.sy09;
 
 import javax.swing.*;
 import java.awt.*;
