@@ -28,6 +28,10 @@ public class TreeNode implements Comparable {
         this.right = right;
     }
 
+    public void setValue(int value){
+        this.value = value;
+    }
+
     public int getValue() {
         return this.value;
     }
