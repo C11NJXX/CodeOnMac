@@ -12,9 +12,10 @@ public class Test01 {
         int[] arr1 = {1, 3, 5, 7, 9, 2, 4, 6, 8, 10, 11, 13, 15, 12, 14};
         BinarySearchTree binarySearchTree = new BinarySearchTree();
         binarySearchTree.buildTree(arr1);
-        List<Integer> list = binarySearchTree.inorderTraversal(binarySearchTree.getRoot());
-        for (int i : list) {
-            System.out.print(i + " ");
-        }
+//        List<Integer> list = binarySearchTree.inorderTraversal(binarySearchTree.getRoot());
+//        for (int i : list) {
+//            System.out.print(i + " ");
+//        }
+
     }
 }
